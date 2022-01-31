@@ -7,8 +7,9 @@ import java.time.LocalDate;
 import java.util.List;
 
 @Entity
-@Data
-@RequiredArgsConstructor
+@Getter
+@Setter
+@ToString
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
